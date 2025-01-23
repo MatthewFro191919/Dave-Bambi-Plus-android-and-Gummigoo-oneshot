@@ -83,6 +83,7 @@ class FreeplayState extends MusicBeatState
 		FlxColor.fromRGB(125, 64, 178), // Nebula
 		FlxColor.fromRGB(74, 81, 204), // Wacky
 		FlxColor.fromRGB(14, 17, 91), // Cosbi
+		FlxColor.fromRGB(255, 209, 27), // Gummigoo
     ];
 	public static var skipSelect:Array<String> = 
 	[
@@ -221,7 +222,7 @@ class FreeplayState extends MusicBeatState
 		}
 		if (FlxG.save.data.terminalFound && !awaitingExploitation)
 		{
-			Catagories = ['dave', 'joke', 'extras', 'dave2.5', 'classic', 'cover', 'fanmade', 'terminal', 'pibby', 'cosbi', 'SCP', 'the_new_dave_mod'];
+			Catagories = ['dave', 'joke', 'extras', 'dave2.5', 'classic', 'cover', 'fanmade', 'terminal', 'pibby', 'cosbi', 'SCP', 'the_new_dave_mod', 'gummigoo'];
 			translatedCatagory = [
 				LanguageManager.getTextString('freeplay_dave'),
 				LanguageManager.getTextString('freeplay_joke'),
@@ -234,7 +235,8 @@ class FreeplayState extends MusicBeatState
 				LanguageManager.getTextString('freeplay_pibby'),
 				LanguageManager.getTextString('freeplay_cosbi'),
 				LanguageManager.getTextString('freeplay_SCP'),
-				LanguageManager.getTextString('freeplay_the_new_dave_mod')];
+				LanguageManager.getTextString('freeplay_the_new_dave_mod'),
+				LanguageManager.getTextString('freeplay_gummigoo')];
 		}
 
 		for (i in 0...Catagories.length)
@@ -440,6 +442,8 @@ class FreeplayState extends MusicBeatState
 				addWeek(['hortas-1', 'hortas-2'], 21, ['hortasSCP', 'hortasSCP']);
 			case 'the_new_dave_mod':
 				addWeek(['cha-cha-slide', 'super-pave', 'slavery', 'freedom'], 26, ['cha', 'superpave', 'slave', 'slave']);
+			case 'gummigoo':
+				addWeek(['Crikey'], 26, ['Gummigoo']);
 		}
 	}
 
