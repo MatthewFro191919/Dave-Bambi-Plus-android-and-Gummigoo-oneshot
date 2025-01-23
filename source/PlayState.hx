@@ -381,6 +381,8 @@ class PlayState extends MusicBeatState
 	var maze:BGSprite;
 	var trainSpeed:Float;
 
+	var truck:BGSprite;
+	
 	var vcr:VCRDistortionShader;
 
 	var place:BGSprite;
@@ -8351,8 +8353,7 @@ class PlayState extends MusicBeatState
 		                        	    cockfire.scale.x = 1280;
 		                                    cockfire.scale.y = 720;
 		                        	    add(cockfire);
-                                                     
-		                        	    var truck:BGSprite;
+
 		                        	    remove(truck);
 					        case 962:
 					            black.alpha = 0;
