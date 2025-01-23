@@ -54,6 +54,7 @@ class StoryMenuState extends MusicBeatState
 		new Week(['Supernovae', 'Glitch', 'Master'], LanguageManager.getTextString('story_masterWeek'), 0xFF116E1C, 'masterweek'), // MASTERA BAMBI
 		new Week(['Corrupted-Farmer'], LanguageManager.getTextString('story_pibbybambiWeek'), 0xFF00B515, 'lol'), // PIBBY BAMBI
 		new Week(['hortas-1', 'hortas-2'], LanguageManager.getTextString('story_hortasSCp'), 0xFF000000, 'evilhortas'), // EVIL HORTAS
+		new Week(['Crikey'], LanguageManager.getTextString('story_tutorial'), 0xFF8A42B7, 'menu_gummigoo'), // GUMMIGOO ONSHOT
 	];
 
 	var awaitingExploitation:Bool;
