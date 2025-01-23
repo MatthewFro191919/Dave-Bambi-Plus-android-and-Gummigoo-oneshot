@@ -8348,8 +8348,8 @@ class PlayState extends MusicBeatState
 		                        	    add(STAGE_candyland);
 		                        	    
 		                        	    var cockfire:BGSprite = new BGSprite('cockfire', 0, 0, Paths.image('backgrounds/crikey/void/void_Lighting'), null);
-		                        	    cockfire.width = 1280;
-		                                    cockfire.height = 720;
+		                        	    cockfire.scale.x = 1280;
+		                                    cockfire.scale.y = 720;
 		                        	    add(cockfire);
                                                      
 		                        	    var truck:BGSprite;
