@@ -1997,7 +1997,7 @@ class PlayState extends MusicBeatState
 				sprites.add(cockfire);
 				add(cockfire);
 
-				var truck:BGSprite = new BGSprite('truck', 1050, 105, Paths.image('backgrounds/cricky/candy/truck'), null);
+				truck = new BGSprite('truck', 1050, 105, Paths.image('backgrounds/cricky/candy/truck'), null);
 				sprites.add(truck);
 				add(truck);
 	
