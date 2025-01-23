@@ -8348,8 +8348,8 @@ class PlayState extends MusicBeatState
 		                        	    add(STAGE_candyland);
 		                        	    
 		                        	    var cockfire:BGSprite = new BGSprite('cockfire', 0, 0, Paths.image('backgrounds/crikey/void/void_Lighting'), null);
-		                        	    cockfire.scale.x = screenWidth;
-		                        	    cockfire.scale.y = screenHeight;
+		                        	    cockfire.width = 1280;
+		                                    cockfire.height = 720;
 		                        	    add(cockfire);
                                                      
 		                        	    var truck:BGSprite;
@@ -12900,9 +12900,6 @@ class PlayState extends MusicBeatState
 
 	function popupWindow()
 	{
-		var screenwidth = Application.current.window.display.bounds.width;
-		var screenheight = Application.current.window.display.bounds.height;
-
 		// center
 		Application.current.window.x = Std.int((screenwidth / 2) - (1280 / 2));
 		Application.current.window.y = Std.int((screenheight / 2) - (720 / 2));
