@@ -8319,7 +8319,7 @@ class PlayState extends MusicBeatState
 					            add(indihome);
 						
 						    var sflash:FlxText = new FlxText(0, 0, 10, "", 20);
-						    sflash.setFormat(Paths.font("Nexa-Heavy.ttf"), font, 16 * fontScaler, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+						    sflash.setFormat("Nexa Heavy", 16, FlxColor.WHITE, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 						    sflash.borderSize = 1.5;
 						    sflash.borderQuality = 2;
 						    sflash.scrollFactor.set();
