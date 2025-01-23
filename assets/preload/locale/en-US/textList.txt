@@ -44,8 +44,9 @@ freeplay_scrapped==Scrapped
 freeplay_terminal==Console
 freeplay_pibby==Pibby
 freeplay_cosbi==Cosbi
-freeplay_scp==Scp
 freeplay_the_new_dave_mod==The New Dave Mod
+freeplay_scp==Scp
+freeplay_gummigoo==Gummigoo
 
 freeplay_personalBest==PERSONAL BEST:
 freeplay_hard==HARD
@@ -156,6 +157,7 @@ story_masterWeekToPlay==?????????
 story_pibbybambiWeek==corrupted farm
 story_CosbiWeek==cosbi's epic return
 story_hortasSCp==hortas
+story_gummigoo==Vs Gummigoo
 
 // CHARACTER SELECT STATE //
 character_reset==Press R To Reset
